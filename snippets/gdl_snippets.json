@@ -1520,6 +1520,10 @@
       "prefix": "sub",
       "body": "\n\n! ========================================================================\n! Description\n\t\"${01:name}\":\n! ------------------------------------------------------------------------\n! input:\n!\tvariable\tdescription\n! output:\n!\tvariable\tdescription\n! ========================================================================\n\n\t${02:body}\n\nreturn\n\n\n"
     },
+    "new sectiondivide": {
+      "prefix": "section_divide",
+      "body": "! ==============================================================================\n! ${01:SectionName}\n! ==============================================================================\n"
+    },
     "\"BEAM_AXES_LINETYPE\" global": {
       "prefix": "BEAM_AXES_LINETYPE",
       "body": "BEAM_AXES_LINETYPE"
